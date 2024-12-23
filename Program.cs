@@ -15,7 +15,24 @@ float shoeSize = 43.5f;
 
 //Console.ReadKey();
 
-Console.WriteLine("My name is " + MyName);
-Console.WriteLine("My age is " + age);
-Console.WriteLine("Do you have a pet?" + havePet);
-Console.WriteLine("My shoe size " + shoeSize);
+//Console.WriteLine("My name is " + MyName);
+//Console.WriteLine("My age is " + age);
+//Console.WriteLine("Do you have a pet? " + havePet);
+//Console.WriteLine("My shoe size " + shoeSize);
+
+//Console.WriteLine("IntMin {0} ", int.MinValue);
+//Console.WriteLine("IntMax {0} ", int.MaxValue);
+
+DaysOfWeek MyFavoriteDay;
+
+MyFavoriteDay = DaysOfWeek.Friday;
+
+Console.WriteLine(MyFavoriteDay);
+
+enum DaysOfWeek : byte
+{
+    Tuesday,
+    Monday,
+    Wednesday,
+    Friday
+}
