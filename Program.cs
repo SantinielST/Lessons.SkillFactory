@@ -1,7 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("\tHello,\n World!");
+//Console.WriteLine("\tHello,\n World!");
 
 //double result = (double)5 / 2;
+
+//double result = 10 % 3;
+
+//Console.WriteLine("5 / 2 = {0}", result);
 
 
 //string MyName;
@@ -27,30 +31,29 @@ Console.WriteLine("\tHello,\n World!");
 //Console.WriteLine("IntMax {0} ", int.MaxValue);
 
 DaysOfWeek MyFavoriteDay;
-
-MyFavoriteDay = DaysOfWeek.Friday;
-
-Console.WriteLine(MyFavoriteDay);
-
-double result = 10 % 3;
-
-Console.WriteLine("5 / 2 = {0}", result);
-
 Console.Write("Enter your name: ");
 string name = Console.ReadLine();
+
 Console.Write("Enter your age: ");
 byte age = (byte)int.Parse(Console.ReadLine());
 Console.WriteLine("Your name is {0} and age is {1} ", name, age);
+
+Console.Write("What is your favorit day of week? ");
+byte favDay = (byte)int.Parse(Console.ReadLine());
+MyFavoriteDay = (DaysOfWeek)favDay;
+
+Console.WriteLine(MyFavoriteDay);
+
 Console.ReadKey();
 
 
-int counter = 10;
-Console.WriteLine("Value : {0} Increment: {1}", counter, counter++);
+//int counter = 10;
+//Console.WriteLine("Value : {0} Increment: {1}", counter, counter++);
 
 enum DaysOfWeek : byte
 {
+    Monday = 1,
     Tuesday,
-    Monday,
     Wednesday,
     Friday
 }
