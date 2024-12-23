@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello,\n World!");
+Console.WriteLine("\tHello,\n World!");
 
 string MyName;
 MyName = "Pavel";
