@@ -1,6 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("\tHello,\n World!");
 
+double result = (double)5 / 2;
+Console.WriteLine("5 / 2 = {0}", result);
+
 string MyName;
 MyName = "Pavel";
 byte age = 39;
@@ -43,3 +46,4 @@ enum Semaphore : short
     Yellow = 200,
     Green = 300
 }
+
