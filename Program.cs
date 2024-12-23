@@ -2,6 +2,7 @@
 //Console.WriteLine("Hello, World!");
 
 string MyName;
+
 MyName = "Pavel";
 
 Console.WriteLine(MyName);
