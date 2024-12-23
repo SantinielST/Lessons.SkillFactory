@@ -39,8 +39,7 @@ byte age = (byte)int.Parse(Console.ReadLine());
 Console.WriteLine("Your name is {0} and age is {1} ", name, age);
 
 Console.Write("What is your favorit day of week? ");
-byte favDay = (byte)int.Parse(Console.ReadLine());
-MyFavoriteDay = (DaysOfWeek)favDay;
+MyFavoriteDay = (DaysOfWeek)int.Parse(Console.ReadLine());
 
 Console.WriteLine(MyFavoriteDay);
 
